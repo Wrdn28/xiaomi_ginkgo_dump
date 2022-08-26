@@ -302,7 +302,8 @@ PRODUCT_ODM_PROPERTIES += \
 
 # QTI Components
 TARGET_COMMON_QTI_COMPONENTS := \
-    bt
+    bt \
+    av \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
