@@ -277,8 +277,9 @@ PRODUCT_ODM_PROPERTIES += \
 # QTI Components
 TARGET_BOARD_PLATFORM := trinket
 TARGET_COMMON_QTI_COMPONENTS := \
-    bt \
+    adreno \
     av \
+    bt \
     vibrator \
     display \
     wlan
