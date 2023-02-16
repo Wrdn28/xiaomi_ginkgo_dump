@@ -256,6 +256,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     av \
     bt \
     usb \
+    gps \
     vibrator \
     display \
     wlan
