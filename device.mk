@@ -170,6 +170,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     vibrator \
     display \
     wlan \
+    init \
     media \
     wfd \
     telephony
@@ -177,18 +178,9 @@ TARGET_COMMON_QTI_COMPONENTS := \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.class_main.sh \
     init.ginkgo.rc \
-    init.qcom.early_boot.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.rc \
-    init.qcom.sh \
-    init.qcom.usb.rc \
-    init.qcom.usb.sh \
     init.qti.dcvs.sh \
-    init.recovery.qcom.rc \
-    init.target.rc \
-    ueventd.qcom.rc
+    init.target.rc
 
 # Sensors
 PRODUCT_PACKAGES += \
