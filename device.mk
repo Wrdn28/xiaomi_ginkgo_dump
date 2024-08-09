@@ -123,15 +123,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl-qti \
     android.hardware.health@2.1-service
 
-# HIDL
-PRODUCT_PACKAGES += \
-    android.hidl.base@1.0.vendor \
-    android.hidl.manager@1.0.vendor
-
-PRODUCT_PACKAGES += \
-    libhidltransport.vendor \
-    libhwbinder.vendor
-
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
@@ -254,13 +245,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
     $(LOCAL_PATH)/configs/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     $(LOCAL_PATH)/configs/perf/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
-
-# QTI VNDK Framework Detect
-PRODUCT_PACKAGES += \
-    libvndfwk_detect_jni.qti \
-    libqti_vndfwk_detect \
-    libvndfwk_detect_jni.qti.vendor \
-    libqti_vndfwk_detect.vendor
 
 PRODUCT_ODM_PROPERTIES += \
     ro.vendor.qti.va_odm.support=1
