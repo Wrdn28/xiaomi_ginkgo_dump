@@ -180,7 +180,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     vibrator \
     display \
     wlan \
-    media
+    media \
+    wfd 
 
 # Ramdisk
 PRODUCT_PACKAGES += \
