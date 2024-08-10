@@ -171,7 +171,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     display \
     wlan \
     media \
-    wfd \
     telephony
 
 # Ramdisk
@@ -230,3 +229,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libavservices_minijail \
+    libavservices_minijail.vendor \
+    libnl \
+    libqdMetaData \
+    libqdMetaData.system \
+    libqdMetaData.vendor \
+    libwfdaac_vendor \
+    vendor.display.config@2.0
